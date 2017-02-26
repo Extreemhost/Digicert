@@ -1,0 +1,22 @@
+{
+    "name": "extreemhost/digicert",
+    "description": "Digicert API client library for PHP",
+    "keywords": ["digicert", "ssl", "certificates"],
+    "homepage": "https://github.com/Extreemhost/Digicert",
+    "license":  "MIT",
+    "authors": [
+        {
+            "name": "Extreemhost",
+            "email": "support@extreemhost.nl"
+            "homepage": "https://extreemhost.nl"
+        }
+    ],
+    "require" :{
+        "php": ">=5.5"
+    },
+    "autoload": {
+       "psr-0": {
+           "Digicert": "src"
+        }
+    }
+}
