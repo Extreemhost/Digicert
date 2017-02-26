@@ -2,7 +2,7 @@
     "name": "extreemhost/digicert",
     "description": "Digicert API client library for PHP",
     "keywords": ["digicert", "ssl", "certificates"],
-    "homepage": "https://github.com/Extreemhost/Digicert",
+    "homepage": "https://github.com/Extreemhost/Digicert/",
     "license":  "MIT",
     "authors": [
         {
