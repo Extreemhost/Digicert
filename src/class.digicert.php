@@ -13,7 +13,7 @@
  			$this->auth = $auth;
     		}
 
-		function _call($location, $data) {
+		protected function _call($location, $data) {
 			$return = json_encode($data);
 			$headers = array(
 				'Content-Type: application/vnd.digicert.rest-v1+json'
