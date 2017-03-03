@@ -4,6 +4,9 @@
 	*
 	* url: https://extreemhost.nl
 	*/
+
+	namespace DigiCert;
+	
 	class DigiCert
 	{
 		protected $url = 'https://api.digicert.com/order';
@@ -13,7 +16,7 @@
  			$this->auth = $auth;
     		}
 
-		protected function _call($location, $data) {
+		protected function CurlConnection($location, $data) {
 			$return = json_encode($data);
 			$headers = array(
 				'Content-Type: application/vnd.digicert.rest-v1+json'

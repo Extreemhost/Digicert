@@ -1,5 +1,5 @@
 ## Digicert API Client
-
+[![Code Climate](https://codeclimate.com/github/Extreemhost/Digicert/badges/gpa.svg)](https://codeclimate.com/github/Extreemhost/Digicert)
 
 ## Requirements ##
 To use the Digicert API client, the following things are required:
@@ -12,14 +12,14 @@ To use the Digicert API client, the following things are required:
 
 ```php
 
-	require_once('class.digicert.php');
+	require 'vendor/autoload.php';
 
-	$client = new DigiCert('[Account]:[API AUTH]');
+	$client = new DigiCert\DigiCert('[Account]:[API AUTH]');
 	$request = array(
 		'server_type'	=> 2,
 		'csr'		=> ''
 	);
-	$client->_call('/111222', $request);
+	$client->CurlConnection('/111222', $request);
 ```
 
 ## API documentation ##
