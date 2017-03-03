@@ -16,7 +16,7 @@
  			$this->auth = $auth;
     		}
 
-		protected function CurlConnection($location, $data) {
+		protected function curlConnection($location, $data) {
 			$return = json_encode($data);
 			$headers = array(
 				'Content-Type: application/vnd.digicert.rest-v1+json'

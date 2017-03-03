@@ -19,7 +19,7 @@ To use the Digicert API client, the following things are required:
 		'server_type'	=> 2,
 		'csr'		=> ''
 	);
-	$client->CurlConnection('/111222', $request);
+	$client->curlConnection('/111222', $request);
 ```
 
 ## API documentation ##
